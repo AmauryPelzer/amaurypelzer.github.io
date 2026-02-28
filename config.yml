@@ -1,0 +1,127 @@
+baseURL: "https://amaurypelzer.github.io/"
+title: Amaury Pelzer
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+#social:
+  #twitter: 
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - name: Projects
+      url: /projects/
+      weight: 1
+    - name: Publication
+      url: /papers/
+      weight: 2
+    - name: Teaching
+      url: /courses/
+      weight: 3
+    - name: News
+      url: /news/
+      weight: 4
+    # - name: Archive
+    #   url: /archive/
+    #   weight: 5
+
+params:
+  description: "I'm a 1st year Ph.D. Candidate in Psychiatric Genetics at Maastricht University. I am a part of the Neurogenomics & Translational Bioinformatics Laboratory (NG-TBL) at Boston University / Harvard Medical School / Broad Institute, working under the supervision of [Dr. Nikolaos Daskalakis](https://daskalakislab.mclean.harvard.edu/)."
+  author: Amaury Pelzer
+  # googleAnalyticsID: ""
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: true
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: false
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+  profileMode:
+    enabled: true
+    title: Amaury Pelzer
+    subtitle: "Hello! This is Amaury! I'm a 1st year Ph.D. Candidate in Psychiatric Genetics at Maastricht University. 
+      I am a part of the Neurogenomics & Translational Bioinformatics Laboratory (NG-TBL) at
+      Boston University / Harvard Medical School / Broad Institute, working under the supervision of [Dr. Nikolaos Daskalakis](https://daskalakislab.mclean.harvard.edu/).
+
+      <br><br>
+      My research projects investigates the biological underpinnings of stress- related disorders such as MDD and PTSD.
+      I employ a multi-disciplinary approach—integrating machine learning and statistical genetics—to analyze
+      electronic health records (EHR) and bulk post-mortem tissue datasets.
+
+      <br><br>
+      Before coming to Boston, I received my M.Sc. in Cognitive and Clinical Neuroscience from Maastricht University in Aug 2024.
+      I also completed my Bachelor's degree in Biomedical Sciences from Maastricht University.
+
+      <br> <br>
+
+      Thank you for visiting my webpage!
+     "
+    imageUrl: "/picture.jpeg"
+    imageWidth: 180
+    imageHeight: 180
+    imageTitle: Amaury Pelzer
+    buttons:
+      - name: Projects
+        url: /projects/
+      - name: Publication
+        url: /papers/
+      - name: Teaching
+        url: /courses/
+      - name: News
+        url: /news/
+
+  socialIcons:
+    #- name: CV
+    #  url: "/cv.pdf"
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/amaurypelzer/"
+    - name: Google Scholar
+      url: "https://scholar.google.com/citations?user=XVkZnwgAAAAJ&hl=en"
+    - name: GitHub
+      url: "https://github.com/amaurypelzer"
+    - name: Email
+      url: "mailto:apelzer@mclean.harvard.edu"
+
+  assets:
+    disableHLJS: true
+    disableScrollBarStyle: true
+  cover:
+    hiddenInList: true
+    hiddenInSingle: true
+  label:
+    text: "Amaury Pelzer"
+    icon: /favicon.ico
+    iconHeight: 18
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: xcode
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
+# max number of characters:
+# * title: 70
+# * description: 120–155
+# * summary: 265
