@@ -31,7 +31,7 @@ menu:
     #   weight: 5
 
 params:
-  description: "I'm a 1st year Ph.D. Candidate in Psychiatric Genetics at Maastricht University. I am a part of the Neurogenomics & Translational Bioinformatics Laboratory (NG-TBL) at Boston University / Harvard Medical School / Broad Institute, working under the supervision of [Dr. Nikolaos Daskalakis](https://daskalakislab.mclean.harvard.edu/)."
+  description: "I'm a 1st year Ph.D. Candidate in Psychiatric Genetics at Maastricht University. I am a part of the Neurogenomics & Translational Bioinformatics Laboratory (NG-TBL) at Boston University / Harvard Medical School / Broad Institute."
   author: Amaury Pelzer
   # googleAnalyticsID: ""
   DateFormat: "January 2006"
@@ -58,16 +58,12 @@ params:
     title: Amaury Pelzer
     subtitle: "Hello! This is Amaury! I'm a 1st year Ph.D. Candidate in Psychiatric Genetics at Maastricht University. 
       I am a part of the Neurogenomics & Translational Bioinformatics Laboratory (NG-TBL) at
-      Boston University / Harvard Medical School / Broad Institute, working under the supervision of [Dr. Nikolaos Daskalakis](https://daskalakislab.mclean.harvard.edu/).
+      Boston University / Harvard Medical School / Broad Institute.
 
       <br><br>
-      My research projects investigates the biological underpinnings of stress- related disorders such as MDD and PTSD.
+      My research projects investigates the biological underpinnings of stress-related disorders such as MDD and PTSD.
       I employ a multi-disciplinary approach—integrating machine learning and statistical genetics—to analyze
       electronic health records (EHR) and bulk post-mortem tissue datasets.
-
-      <br><br>
-      Before coming to Boston, I received my M.Sc. in Cognitive and Clinical Neuroscience from Maastricht University in Aug 2024.
-      I also completed my Bachelor's degree in Biomedical Sciences from Maastricht University.
 
       <br> <br>
 
